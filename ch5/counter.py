@@ -1,0 +1,6 @@
+import collections
+
+a = [1,2,3,4,5,5,5,6,6]
+b = collections.Counter(a)
+print(type(b))
+print(b.most_common(2))
